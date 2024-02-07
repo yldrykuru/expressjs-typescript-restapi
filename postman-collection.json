@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "b990023b-7d00-4b5d-b38b-ce8d859619c3",
+		"name": "expressjs-typescript-mvc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15959931"
+	},
+	"item": [
+		{
+			"name": "auto-generate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/programming-languages/auto/generate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"programming-languages",
+						"auto",
+						"generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/programming-languages/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"programming-languages",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create Data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"JavaScript\",\r\n  \"released_year\": \"1995\",\r\n  \"githut_rank\": \"1\",\r\n  \"pypl_rank\": \"1\",\r\n  \"tiobe_rank\": \"1\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/programming-languages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"programming-languages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update Data",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"JavaScript\",\r\n  \"released_year\": \"1996\",\r\n  \"githut_rank\": \"2\",\r\n  \"pypl_rank\": \"3\",\r\n  \"tiobe_rank\": \"4\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/programming-languages/9464",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"programming-languages",
+						"9464"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete By Id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/programming-languages/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"programming-languages",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
