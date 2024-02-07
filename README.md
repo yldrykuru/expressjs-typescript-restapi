@@ -56,7 +56,7 @@ Request: POST http://localhost:3000/api/v1/programming-languages
   "tiobe_rank": "1"
 }
 ```
-1. Update Programming Language by ID
+4. Update Programming Language by ID
 Request: PUT http://localhost:3000/api/v1/programming-languages/1
 ```json
 {
@@ -67,7 +67,7 @@ Request: PUT http://localhost:3000/api/v1/programming-languages/1
   "tiobe_rank": "4"
 }
 ```
-1. Delete Programming Language by ID
+5. Delete Programming Language by ID
 Request: DELETE http://localhost:3000/api/v1/programming-languages/1
    
 
@@ -75,10 +75,10 @@ Request: DELETE http://localhost:3000/api/v1/programming-languages/1
 The project structure follows the MVC design pattern. Customize controllers, models, and services according to your application's needs.
 
 ## Scripts
-npm start: Start the development server with automatic restart on file changes.
-npm run build: Compile TypeScript files to JavaScript.
-npm run lint: Run ESLint for code linting and auto-fixing.
-npm test: Placeholder for running tests.
+- npm start: Start the development server with automatic restart on file changes.
+- npm run build: Compile TypeScript files to JavaScript.
+- npm run lint: Run ESLint for code linting and auto-fixing.
+- npm test: Placeholder for running tests.
 
 ## Contributing
 Feel free to contribute to this project. Create issues, fork the repository, and submit pull requests to enhance or extend functionality.
