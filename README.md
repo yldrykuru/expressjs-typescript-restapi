@@ -2,7 +2,7 @@
 
 A simple Express.js project structure with TypeScript and MVC pattern.
 
-![ExpressJS TypeScript MVC](banner.jpeg)
+![ExpressJS TypeScript MVC](docs/banner.jpeg)
 
 ## Description
 
