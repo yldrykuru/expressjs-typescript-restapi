@@ -1,0 +1,38 @@
+{
+  "name": "expressjs-typescript-mvc",
+  "version": "0.1.0",
+  "description": "A basic Express.js project structure with TypeScript and MVC pattern.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node-dev --respawn --pretty --transpile-only index.ts",
+    "lint": "eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "mvc"
+  ],
+  "author": "Yıldıray Kuru <yldrykuru@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1",
+    "sequelize": "^6.36.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "sequelize-cli": "^6.6.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
