@@ -47,7 +47,6 @@ Request: GET http://localhost:3000/api/v1/programming-languages/auto/generate
 Request: GET http://localhost:3000/api/v1/programming-languages/1
 3. Create Programming Language
 Request: POST http://localhost:3000/api/v1/programming-languages
-Body:
 ```json
 {
   "name": "JavaScript",
@@ -57,9 +56,8 @@ Body:
   "tiobe_rank": "1"
 }
 ```
-4. Update Programming Language by ID
-Request: PUT http://localhost:3000/api/v1/programming-languages/9464
-Body:
+1. Update Programming Language by ID
+Request: PUT http://localhost:3000/api/v1/programming-languages/1
 ```json
 {
   "name": "JavaScript",
@@ -69,7 +67,7 @@ Body:
   "tiobe_rank": "4"
 }
 ```
-5. Delete Programming Language by ID
+1. Delete Programming Language by ID
 Request: DELETE http://localhost:3000/api/v1/programming-languages/1
    
 
