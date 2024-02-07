@@ -84,4 +84,4 @@ The project structure follows the MVC design pattern. Customize controllers, mod
 Feel free to contribute to this project. Create issues, fork the repository, and submit pull requests to enhance or extend functionality.
 
 ## License
-This project is licensed under the MIT License. See [LICENSE.md](LICENSE.md) for more information.
+This project is licensed under the MIT License. See [LICENSE](LICENSE.md) for more information.
