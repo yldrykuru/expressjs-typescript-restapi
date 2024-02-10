@@ -1,18 +1,18 @@
-# ExpressJS TypeScript MVC
+# ExpressJS TypeScript REST API
 
-A simple Express.js project structure with TypeScript and MVC pattern.
+A simple Express.js project structure with TypeScript focusing on building REST APIs.
 
-![ExpressJS TypeScript MVC](docs/banner.jpeg)
+![ExpressJS TypeScript REST API](docs/banner.jpeg)
 
 ## Description
 
-This project provides a foundational structure for building web applications with Express.js and TypeScript, following the MVC (Model-View-Controller) design pattern. It offers an organized and scalable architecture to kickstart your development.
+This project provides a foundational structure for building REST APIs with Express.js and TypeScript. It follows a clear and organized architecture without the View layer, emphasizing the use of the RESTful API pattern.
 
 ## Features
 
-- **Express.js and TypeScript**: Harness the power of Express.js with TypeScript.
-- **MVC Design Pattern**: Organize your code with clear separation of concerns.
-- **Sequelize ORM Integration**: Easily interact with databases using Sequelize.
+- **Express.js and TypeScript**: Leverage the power of Express.js with TypeScript.
+- **Clear API Design**: Organize your code with a focus on RESTful API principles.
+- **Sequelize ORM Integration**: Seamlessly interact with databases using Sequelize.
 - **Example Controllers, Models, and Services**: Get started quickly with provided examples.
 
 ## Installation
@@ -72,7 +72,7 @@ Request: DELETE http://localhost:3000/api/v1/programming-languages/1
    
 
 ## Usage
-The project structure follows the MVC design pattern. Customize controllers, models, and services according to your application's needs.
+The project structure emphasizes REST API design principles. Customize controllers, models, and services according to your application's needs.
 
 ## Scripts
 - npm start: Start the development server with automatic restart on file changes.
